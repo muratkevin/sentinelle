@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Login</title>
+        <!-- Inclure la feuille de style principale -->
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link href="index.css" rel="stylesheet" type="text/css">
+		<!-- Inclure une feuille de style supplémentaire -->
+		<link href="stylescript.css" rel="stylesheet" type="text/css">
+		<!-- Inclure la bibliothèque Font Awesome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	</head>
+
+	<body>
+		<div class="login" id="loginDiv">
+			<h1>Système de surveillance  Connectez-vous</h1>
+			
+			<form action="authenticate.php" method="post">
+				<!-- Champ de nom d'utilisateur -->
+				<label for="username">
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="username" placeholder="Nom d'utilisateur" id="username" required>
+				<!-- Champ de mot de passe -->
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="password" placeholder="Mot de passe" id="password" required>
+				<!-- Bouton de soumission du formulaire -->
+				<input type="submit" value="Connexion">
+			</form>
+		</div>
+		
+		<!-- Inclure le script JavaScript -->
+		<script src="scriptLogin.js"></script>
+	</body>
+</html>

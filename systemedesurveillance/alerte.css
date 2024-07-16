@@ -1,0 +1,89 @@
+/* Définition des styles pour les carrés */
+.carre {
+    width: 10%; /* Utilisation de % pour la largeur */
+    height: 10vw; /* Utilisation de vw pour la hauteur */
+    background-color: red;
+    position: absolute;
+    /* Animation de clignotement */
+    animation: clignoter 0.5s infinite alternate;
+}
+
+/* Définition de l'animation de clignotement */
+@keyframes clignoter {
+    0% {
+        opacity: 1;
+        background-color: red;
+    }
+    100% {
+        opacity: 0;
+        background-color: red; 
+    }
+}
+
+/* Positionnement et dimensions des carrés pour la zone A */
+.A1 {
+    top: 19%;
+    left: 53.1%;
+    width: 35.9%;
+    height: 6.8vw;
+}
+
+/* Positionnement et dimensions des carrés pour la zone B */
+.B1 {
+    top: 49.8%;
+    left: 53.1%;
+    width: 35.9%;
+    height: 5.9vw;
+}
+
+/* Positionnement et dimensions des carrés pour la zone C */
+.C1 {
+    top: 75.1%;
+    left: 53.1%;
+    width: 35.9%;
+    height: 5.2vw;
+}
+
+/* Positionnement et dimensions des carrés pour la zone D */
+.D1 {
+    top: 97.7%;
+    left: 53.1%;
+    width: 35.9%;
+    height: 4.7vw;
+}
+
+/* Media queries pour rendre le code responsive */
+@media screen and (max-width: 768px) {
+    .carre {
+        width: 15%; 
+        height: 15vw;
+    }
+
+    .A1 {
+        top: 20%;
+        left: 50%;
+        width: 50%;
+        height: 8vw;
+    }
+
+    .B1 {
+        top: 35%;
+        left: 50%;
+        width: 50%;
+        height: 7vw;
+    }
+
+    .C1 {
+        top: 50%;
+        left: 50%;
+        width: 50%;
+        height: 6vw;
+    }
+
+    .D1 {
+        top: 50%;
+        left: 50%;
+        width: 50%;
+        height: 5vw;
+    }
+}

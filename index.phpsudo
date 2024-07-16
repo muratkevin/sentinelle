@@ -1,0 +1,1 @@
+<?php phpinfo(); ?> apt install mariadb-server php-mysql

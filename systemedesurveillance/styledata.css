@@ -1,0 +1,28 @@
+/* Styles de base pour le tableau */
+table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+/* Styles pour les en-têtes de colonnes et les cellules de données */
+table th,
+table td {
+    padding: 15px;
+    text-align: center;
+}
+
+/* Styles pour les en-têtes de colonnes */
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Styles pour les lignes de tableau impaires */
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Styles au survol des lignes de tableau */
+table tr:hover {
+    background-color: #f2f2f2;
+}

@@ -1,0 +1,57 @@
+/* Réinitialisation des marges et paddings pour tous les éléments, y compris les pseudo-éléments */
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Style de base pour le corps de la page */
+body {
+    background-color: #0855ae;
+}
+
+/* Style pour la fenêtre popup */
+.popup1 {
+    width: 420px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 47.4%;
+    top: -0.5%;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    display: none;
+    text-align: center;
+    background-color: #6e6969 !important;
+}
+
+/* Style du bouton de fermeture de la fenêtre popup */
+.popup1 button {
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #ffffff;
+    background: #03549a;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Style du titre de la fenêtre popup */
+.popup1 h2 {
+    margin-top: -20px;
+}
+
+/* Style du contenu de la fenêtre popup */
+.popup1 p {
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+}

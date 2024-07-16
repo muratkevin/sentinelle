@@ -1,0 +1,32 @@
+/* Styles pour le texte en bleu */
+.blue {
+    color: blue;
+}
+
+/* Styles pour le texte en vert */
+.green {
+    color: green;
+}
+
+/* Styles pour le texte en orange */
+.orange {
+    color: orange;
+}
+
+/* Styles pour le texte en rouge */
+.red {
+    color: red; 
+    font-weight: bold; 
+}
+
+/* Définition de l'animation blink */
+@keyframes blink {
+    0% { opacity: 1; } 
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Application de l'animation blink au texte */
+.blink {
+    animation: blink 0.5s infinite;
+}
